@@ -9,7 +9,7 @@ for (let i = 0; i < list.length; i++) {
         submit.addEventListener("click", () => {
             main1.innerHTML = `<div id="thank-you"><div class="th-img">
   <img
-    src="file:///Users/mac/Downloads/interactive-rating-component-main/images/illustration-thank-you.svg"
+    src="illustration-thank-you.svg"
   />
 </div>
 <span id="rated"> You selected ${list[i].textContent} out of 5 </span>
